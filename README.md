@@ -1,2 +1,2 @@
 # diabetes-classification-model
- diabetes classifier
+A diabetes binary classification model to predict if a patient is a diabetic. 
