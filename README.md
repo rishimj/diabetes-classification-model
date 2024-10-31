@@ -1,4 +1,4 @@
-# Diabetes Classifier AI Model
+# Diabetes Classifier
 
 This project is a machine learning model that classifies patients as diabetic or non-diabetic based on several health-related features. The model utilizes a neural network built with TensorFlow to predict diabetes from a dataset of medical indicators. The dataset used is the PIMA Indian Diabetes Dataset, available on GitHub.
 
