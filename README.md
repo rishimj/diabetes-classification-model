@@ -11,8 +11,7 @@ This project is a machine learning model that classifies patients as diabetic or
 6. [Results](#results)
 7. [Visualization](#visualization)
 8. [Future Enhancements](#future-enhancements)
-9. [Contributing](#contributing)
-10. [License](#license)
+
 
 ## Project Overview
 The Diabetes Classifier AI Model is built using Python, TensorFlow, and scikit-learn. The goal of this project is to predict whether a patient has diabetes based on several health-related features. This project was developed to gain insights into the data using data visualization, understand model development processes using machine learning frameworks, and address data imbalance issues to improve the classifier's prediction performance.
@@ -63,11 +62,10 @@ The model is a **Sequential Neural Network** consisting of:
 
 ## Installation
 
-### Clone the Repository
-Start by cloning the repository and navigating to the directory:
-```bash
-git clone https://github.com/your-username/diabetes-classification-model.git
-cd diabetes-classification-model
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rishimj/diabetes-classification-model.git
+   cd diabetes-classification-model
 
 ## Results
 The trained model achieved the following metrics:
@@ -78,16 +76,12 @@ The trained model achieved the following metrics:
 
 These results demonstrate the model’s capability to classify patients as diabetic or non-diabetic with reasonable accuracy.
 
-## Visualization
+## Visualizations
 Several visualizations were performed to understand the dataset and model behavior:
 
 - **Feature Histograms**: Generated histograms for each feature, comparing diabetic and non-diabetic distributions.
   - Example: A histogram for **Glucose** shows distinct distributions between diabetic and non-diabetic samples.
 - **Training Metrics**: The model's training and validation accuracy were plotted over 20 epochs to ensure that the model converged and did not overfit.
-
-Below is an example of a histogram generated during exploration:
-
-![Feature Histogram](path-to-your-histogram-image.png)
 
 ## Future Enhancements
 
